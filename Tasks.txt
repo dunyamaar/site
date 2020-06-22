@@ -1,0 +1,4 @@
+U pitanju je licni sajt sa projektima sa fakulteta i postavka sajta nam je deo ispita iz grafickog dizajna. Imam stranu about me, gde je moja fotka i kratak tekst, stranu za kontakt sa cetiri linka za drustvene mreze i tu pocetnu stranu projekti, gde se nalazi osam projekata. 
+Moja zamisao je da kada se prodje/klikne misem na projekat, da se pojavi slika u boji i naziv proizvoda i ako je moguće da se čuje kratak zvuk proizvoda sa fotografije. (Imam spremne te zvukove)
+Deo koga nema na fotkama, kada se uđe na svaki projekat da se pojavi tekst o njemu i slike koje bi se menjale.
+Za stranu About kada se klikne na fotografiju da se pravougaonik i fotka pomere u desno i da se pojavi tekst about me.
