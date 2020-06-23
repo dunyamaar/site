@@ -1,11 +1,9 @@
-
 body{
     font: 15px/1.5 Myriad, Myriad,sans-serif;
     padding:0;
     margin:0;
     background-color:#f4f4f4;
-}
-
+  }
 
 .container{
     width:80%;
@@ -16,7 +14,15 @@ body{
 .main-content{
     padding: 20px;
     background-color: #c7c7c7;
-    min-height: calc(100vh - 163px) !important;
+    height: calc(100vh - 163px) !important;
+}
+.contact-main {
+  background: url('../Assets/Contact/Mapa za contact.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 47% 25%;
+  background-color: rgb(204, 204, 204);
 }
 
 .flex-container{
@@ -26,9 +32,21 @@ body{
     align-items: center;
 }
 
+.navbar {
+  min-height: 98px !important;
+}
+
 ul{
     margin:0;
     padding:0;
+  }
+
+  .navbar-nav a {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .navbar-nav a:hover {
+    color:  #ff9110 !important;
   }
 
 /* grid */
@@ -103,7 +121,29 @@ header{
     font-weight:bold;
   }
 
+  .hover-belgrade {
+    position: absolute;
+    left: 48%;
+    top: 18%;
+    width: 65px;
+    height: 65px;
+    opacity: 0;
+  }
+  .hover-belgrade:hover {
+    opacity: 1;
+    left: 46% !important;
+    top: 14% !important;
+    width: auto !important;
+
+  }
+  .hover-belgrade p {
+    background: white;
+    padding: 3px;
+
+  }
+
 /* FOOTER */
+
 footer{
     text-align: center;
     background-color: #252525;
