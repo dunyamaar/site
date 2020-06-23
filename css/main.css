@@ -16,14 +16,7 @@ body{
     background-color: #c7c7c7;
     height: calc(100vh - 163px) !important;
 }
-.contact-main {
-  background: url('../Assets/Contact/Mapa za contact.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 47% 25%;
-  background-color: rgb(204, 204, 204);
-}
+
 
 .flex-container{
     display: flex;
@@ -124,15 +117,25 @@ header{
   .hover-belgrade {
     position: absolute;
     left: 48%;
-    top: 18%;
+    top: 25%;
     width: 65px;
     height: 65px;
     opacity: 0;
   }
+  .contact-main {
+    background: url('../Assets/Contact/Mapa za contact.png');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 70%;
+    background-position: 47% 25%;
+    background-color: #c7c7c7;
+    width: 100%;
+    height: 80%;
+  }
   .hover-belgrade:hover {
     opacity: 1;
     left: 46% !important;
-    top: 14% !important;
+    top: 20% !important;
     width: auto !important;
 
   }
@@ -160,3 +163,39 @@ footer{
       padding-bottom:20px;
     }
   }
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-main {
+    background-size: 120% !important;
+    height: 65%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .contact-main {
+    background-size: 120% !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contact-main {
+    background-size: 100% !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .contact-main {
+    background-size: 90% !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .contact-main {
+    background-size: 70% !important;
+  }
+}
