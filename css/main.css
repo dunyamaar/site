@@ -16,6 +16,11 @@ body{
     background-color: #c7c7c7;
     min-height: calc(100vh - 163px) !important;
 }
+.main-content-contact{
+    padding: 20px;
+    background-color: #c7c7c7;
+    height: calc(100vh - 163px) !important;
+}
 
 
 .img-grayscale{
