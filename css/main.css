@@ -16,7 +16,7 @@ body{
 .main-content{
     padding: 20px;
     background-color: #c7c7c7;
-    min-height: calc(100vh - 219px) !important;
+    min-height: calc(100vh - 163px) !important;
 }
 
 .flex-container{

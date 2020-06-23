@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dunya Maar</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
+    <!-- <header>
         <div class="container flex-container">
             <div id="branding">
                 <img src="/Assets/Informacije/Logo.png" alt="logo" width="12%" />
@@ -17,13 +21,45 @@
             <nav>
                 <ul>
                     <li class="current"><a href="index.html">About</a></li>
-                    <li><a href="about.html">Work</a></li>
+                    <li><a href="work.html">Work</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main-content">
+        <section class="two-column-grid">
+            <div class="flex grid-flex-end">
+                <img src="./Assets/About/About slika zatvorena.png" width="60%" style="height: 720px;" alt="about slika">
+            </div>
+            <div class="flex grid-flex-center-items">
+                <h1 class="white font-x-large not-bold">DUNYA <br>MAAR</h1>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h3>&copy; DUNYA MAAR All rights reserved</h3>
+    </footer> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="./index.html"><img src="/Assets/Informacije/Logo.png" alt="logo" width="10%" /></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="./contact.html" tabindex="-1">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main class="main-content">
         <section class="two-column-grid">
             <div class="flex grid-flex-end">
                 <img src="./Assets/About/About slika zatvorena.png" width="60%" style="height: 720px;" alt="about slika">
