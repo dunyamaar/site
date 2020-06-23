@@ -14,9 +14,18 @@ body{
 .main-content{
     padding: 20px;
     background-color: #c7c7c7;
-    height: calc(100vh - 163px) !important;
+    min-height: calc(100vh - 163px) !important;
 }
 
+
+.img-grayscale{
+  filter: grayscale(1);
+}
+
+.img-grayscale:hover{
+  cursor: pointer;
+  filter: grayscale(0);
+}
 
 .flex-container{
     display: flex;
