@@ -28,4 +28,18 @@ $(document).ready(function () {
                 break;
         }
     });
+
+    if (location.pathname === '/index.html'){
+        $("#about").css('color', 'white');
+    }else if (location.pathname === '/work.html'){
+        $("#work").css('color', 'white');
+    }else if (location.pathname === '/contact.html'){
+        $("#contact").css('color', 'white');
+    }else{
+        $("#work").css('color', 'white');
+    }
+    $(".nav-item").on('click', function(){
+        $(".nav-item .nav-link").css('color', 'rgba(255,255,255,.5)');
+        $(this).find('a').css('color','white');
+    });
 });
