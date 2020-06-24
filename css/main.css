@@ -14,12 +14,12 @@ body{
 .main-content{
     padding: 20px;
     background-color: #c7c7c7;
-    min-height: calc(100vh - 163px) !important;
+    min-height: calc(100vh - 158px) !important;
 }
 .main-content-contact{
     padding: 20px;
     background-color: #c7c7c7;
-    height: calc(100vh - 163px) !important;
+    height: calc(100vh - 158px) !important;
 }
 
 
@@ -42,7 +42,11 @@ body{
 .navbar {
   min-height: 98px !important;
 }
-
+.navbar-custom {
+  height: 98px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 ul{
     margin:0;
     padding:0;
