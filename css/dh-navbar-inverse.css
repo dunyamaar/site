@@ -36,13 +36,13 @@
   color:#f0f0f0;
 }
 
-.navigation-clean .navbar-brand img {
+/* .navigation-clean .navbar-brand img {
   height:100%;
   display:inline-block;
   margin-right:10px;
   width:auto;
   margin-left:5px;
-}
+} */
 
 .navigation-clean .navbar-toggle {
   border-color:#ddd;
@@ -140,7 +140,7 @@ audio, canvas, iframe, img, svg, video {
   vertical-align:middle;
 }
 
-audio, canvas, img, video {
+audio, canvas, img:not(.logic), video {
   max-width:100%;
   height:auto;
   box-sizing:border-box;
