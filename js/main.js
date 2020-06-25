@@ -188,3 +188,17 @@ $(document).ready(function () {
     }
 
 });
+
+$("#img-click").on("click", ()=>{
+    if (!$("#img-click").hasClass("animate-img")){
+        $("#img-click").addClass("animate-img");
+        $("#img-click").removeClass("animate-img-reverse");
+        $("#b-me").show();
+        $("#b-me").addClass("animate-div");
+    }else{
+        $("#img-click").removeClass("animate-img");
+        $("#b-me").removeClass("animate-div");
+        $("#b-me").hide();
+        $("#img-click").addClass("animate-img-reverse");
+    }
+})
