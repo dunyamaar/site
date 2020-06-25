@@ -13,7 +13,15 @@ body{
 nav {
   background-color: #363636 !important;
 }
-
+.about-me {
+  width: 35%;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  margin-top: 5%;
+  padding: 10px;
+}
 .wrap {
   position: relative;
   width: 600px;
