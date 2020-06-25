@@ -10,7 +10,9 @@ body{
     margin:auto;
     overflow:hidden;
 }
-
+nav {
+  background-color: #363636 !important;
+}
 .main-content{
     padding: 20px;
     background-color: #c7c7c7;
@@ -172,7 +174,7 @@ header{
 
 footer{
     text-align: center;
-    background-color: #252525;
+    background-color: #333333;
     color: white;
     min-height: 60px;
     display: flex !important;
