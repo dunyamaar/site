@@ -29,6 +29,68 @@ $(document).ready(function () {
         }
     });
 
+    $(".img-grayscale").hover(
+        function() {
+            var id = $(this).attr("id");
+
+        switch (id) {
+            case 'stoop-station':
+                $("#stoop-station-text").show();
+                break;
+            case 'son-speaker':
+                $("#son-speaker-text").show();
+                break;
+            case 'jazzgoo-cezve':
+                $("#jazzgoo-cezve-text").show();
+                break;
+            case 'pock-projector':
+                $("#pock-projector-text").show();
+                break;
+            case 'vr-fotka':
+                $("#vr-fotka-text").show();
+                break;
+            case 'prirodno-1':
+                $("#prirodno-1-text").show();
+                break;
+            case 'lifesaver':
+                $("#lifesaver-text").show();
+                break;
+            case 'bashta-garden':
+                $("#bashta-garden-text").show();
+                break;
+        }
+          }, function() {
+            var id = $(this).attr("id");
+
+        switch (id) {
+            case 'stoop-station':
+                $("#stoop-station-text").hide();
+                break;
+            case 'son-speaker':
+                $("#son-speaker-text").hide();
+                break;
+            case 'jazzgoo-cezve':
+                $("#jazzgoo-cezve-text").hide();
+                break;
+            case 'pock-projector':
+                $("#pock-projector-text").hide();
+                break;
+            case 'vr-fotka':
+                $("#vr-fotka-text").hide();
+                break;
+            case 'prirodno-1':
+                $("#prirodno-1-text").hide();
+                break;
+            case 'lifesaver':
+                $("#lifesaver-text").hide();
+                break;
+            case 'bashta-garden':
+                $("#bashta-garden-text").hide();
+                break;
+        }
+          }
+    )
+
     if (location.pathname === '/index.html') {
         $("#about").css('color', 'white');
     } else if (location.pathname === '/work.html') {

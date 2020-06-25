@@ -58,6 +58,9 @@ nav {
 }
 
 #next {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
   right: 0;
   z-index: 100;
 }
@@ -84,8 +87,48 @@ nav {
   filter: grayscale(1);
 }
 
+#son-speaker-text{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 82px;
+  display: none;
+}
+
+#stoop-station-text{
+  display: none;
+  position: absolute;
+  bottom: 52%;
+  right: 70%;
+}
+
+#pock-projector-text{
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 70%;
+}
+
+.rotate-left{
+  transform: rotate(-90deg);
+}
+
+.rotate-right{
+  margin-right: -10px;
+  transform: rotate(90deg);
+}
+#bashta-garden-text{
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  left:81px;
+  z-index: 1000;
+  display: none;
+}
+
 .img-grayscale:hover{
   cursor: pointer;
+  transition: .3s;
   filter: grayscale(0);
 }
 
