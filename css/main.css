@@ -90,23 +90,65 @@ nav {
 #son-speaker-text{
   color: white;
   position: absolute;
-  bottom: 0;
-  right: 82px;
+  bottom: 14em;
+  left: 36.5em;
+  z-index: 1000;
   display: none;
 }
 
 #stoop-station-text{
+  color: white;
   display: none;
   position: absolute;
-  bottom: 52%;
-  right: 70%;
+    bottom: 58%;
+    right: 40%;
+    z-index: 1000;
 }
 
 #pock-projector-text{
+  color: white;
   display: none;
   position: absolute;
-  bottom: 0;
-  right: 70%;
+    bottom: 23%;
+    right: 39%;
+    z-index: 1000;
+}
+
+#vr-fotka-text{
+  color: white;
+  display: none;
+  position: absolute;
+    z-index: 10000;
+    bottom: -94px;
+    left: 37.5em;
+}
+
+#jazzgoo-cezve-text{
+  color: #333;
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  bottom: -96px;
+  left: 56.5em;
+}
+
+#lifesaver-text{
+  color: orangered;
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  bottom: -147px;
+  left: 37.5em;
+}
+
+#prirodno-1-text{
+  color: #333;
+  display: none;
+  position: absolute;
+  z-index: 10000;
+  bottom: -387px;
+  left: 56.5em;
+
 }
 
 .rotate-left{
@@ -120,8 +162,8 @@ nav {
 #bashta-garden-text{
   color: white;
   position: absolute;
-  bottom: 15px;
-  left:81px;
+  bottom: 145px;
+  right: 580px;
   z-index: 1000;
   display: none;
 }
