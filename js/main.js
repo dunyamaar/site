@@ -61,9 +61,11 @@ $(document).ready(function () {
       
       });
 
+    var audio = $("#efekat")[0];
     $(".img-grayscale").hover(
         function() {
             var id = $(this).attr("id");
+            audio.play();
 
         switch (id) {
             case 'stoop-station':
