@@ -445,6 +445,9 @@ footer p {
     header{
       padding-bottom:20px;
     }
+    .f-dir {
+      flex-direction: column;
+    }
   }
 
   /* Extra small devices (phones, 600px and down) */
@@ -462,6 +465,9 @@ footer p {
   .obj-fit{
     object-fit: contain;
   }
+  .f-dir {
+    flex-direction: column;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -477,6 +483,9 @@ footer p {
   }
   .obj-fit{
     object-fit: contain;
+  }
+  .f-dir {
+    flex-direction: column;
   }
 }
 
@@ -543,7 +552,7 @@ footer p {
     object-fit: unset;
   }
   .f-dir {
-    flex-direction: column;
+    flex-direction: row;
   }
   
 }
