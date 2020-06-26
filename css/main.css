@@ -14,14 +14,14 @@ nav {
   background-color: #363636 !important;
 }
 .about-me {
-  width: 35%;
+  width: 33%;
     font-size: 15px;
     background-color: #0d0d0d;
     color: white;
     position: absolute;
-    margin-top: 131px;
+    margin-top: 0px;
     padding: 10px;
-    height: 441px;
+    height: 580px;
 }
 
 .slider-one{ width: 500px; height: 300px; margin: 100px auto; position: relative; top: 0; left: 0; right: 0; }
@@ -136,31 +136,55 @@ nav {
   animation-duration: 1s;
   animation-direction: normal;
   animation-fill-mode: forwards;
+  padding-top: 5em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 
 @keyframes animate{
   0% { transform: translate(0, 0px); }
   50% { transform: translate(200, 0px);}
-  100% { transform: translate(421px, 0px);}
+  100% { transform: translate(481px, 0px);}
 }
 
 @keyframes animate2{
-  0% { transform: translate(421px, 0px); }
+  0% { transform: translate(481px, 0px); }
   50% { transform: translate(200, 0px);}
   100% { transform: translate(0px, 0px);}
 }
 
 @keyframes animate3{
-  0% { transform: translate(421px, 0px); }
+  0% { transform: translate(481px, 0px); }
   50% { transform: translate(150px, 0px);}
-  100% { transform: translate(269px, 0px);}
+  100% { transform: translate(339px, 0px);}
 }
 
 @keyframes animate4{
   0% { opacity: 1; }
   50% { opacity: 0.5;}
   100% { opacity: 0;}
+}
+
+@media screen and (max-width: 1650px) , screen and (max-height: 900px) {
+  .animate-div{
+    padding-left: 10px !important;
+  }
+  .about-me{
+    width: 33%;
+    font-size: 15px;
+    background-color: #0d0d0d;
+    color: white;
+    position: absolute;
+    margin-top: 0px;
+    padding: 10px;
+    height: 484px;
+  }
+  @keyframes animate3{
+    0% { transform: translate(481px, 0px); }
+    50% { transform: translate(150px, 0px);}
+    100% { transform: translate(345px, 0px);}
+  }
 }
 #prirodno-1-text{
   color: #333;
