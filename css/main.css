@@ -552,7 +552,7 @@ footer p {
     object-fit: unset;
   }
   .f-dir {
-    flex-direction: row;
+    flex-direction: column;
   }
   
 }
@@ -599,5 +599,8 @@ footer p {
   }
   .obj-fit {
     object-fit: unset;
+  }
+  .f-dir {
+    flex-direction: row;
   }
 }
