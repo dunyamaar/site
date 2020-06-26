@@ -62,32 +62,39 @@ nav {
 .img-grayscale{
   filter: grayscale(1);
 }
-
+label {
+  font-size: 1.4em;
+}
 #son-speaker-text{
   color: white;
   position: absolute;
-  bottom: 14em;
-  left: 36.5em;
+  bottom: 5%;
+  left: 0;
   z-index: 1000;
   display: none;
+  width: 100%;
+  text-align: center;
+  padding-right: 10%;
 }
 
 #stoop-station-text{
   color: white;
   display: none;
   position: absolute;
-    bottom: 58%;
-    right: 40%;
+    top: 8%;   left: 5%;
     z-index: 1000;
+    width: 20%;
+  text-align: left;
 }
 
 #pock-projector-text{
   color: white;
   display: none;
   position: absolute;
-    bottom: 23%;
-    right: 39%;
+    bottom: 5%;   right: 0;
     z-index: 1000;
+    width: 100%;
+  text-align: center;
 }
 
 #vr-fotka-text{
@@ -95,8 +102,10 @@ nav {
   display: none;
   position: absolute;
     z-index: 10000;
-    bottom: -94px;
-    left: 37.5em;
+    bottom: 0;
+    top: 5%;
+    width: 100%;
+  text-align: center;
 }
 
 #jazzgoo-cezve-text{
@@ -104,8 +113,10 @@ nav {
   display: none;
   position: absolute;
   z-index: 1000;
-  bottom: -96px;
-  left: 56.5em;
+  top: 12%;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
 #lifesaver-text{
@@ -113,8 +124,10 @@ nav {
   display: none;
   position: absolute;
   z-index: 10000;
-  bottom: -147px;
-  left: 37.5em;
+  top: 5%;
+  left: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .animate-img{
@@ -191,8 +204,11 @@ nav {
   display: none;
   position: absolute;
   z-index: 10000;
-  bottom: -387px;
-  left: 56.5em;
+  bottom: 5%;
+  padding-right: 10%;
+  left: 0;
+  width: 100%;
+  text-align: center;
 
 }
 
@@ -207,10 +223,13 @@ nav {
 #bashta-garden-text{
   color: white;
   position: absolute;
-  bottom: 145px;
-  right: 580px;
+  top: 6%;
+  right: 0;
   z-index: 1000;
   display: none;
+  width: 100%;
+  text-align: center;
+  
 }
 
 .img-grayscale:hover{
