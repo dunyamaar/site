@@ -61,36 +61,58 @@ $(document).ready(function () {
       
       });
 
-    var audio = $("#efekat")[0];
+    var bashta = $("#bashta")[0];
+    var jazzgo = $("#jazzgo")[0];
+    var pock = $("#pock")[0];
+    var prirodno = $("#prirodno")[0];
+    var son = $("#son")[0];
+    var stoop = $("#stoop")[0];
+    var trifloat = $("#trifloat")[0];
+    var vr = $("#vr")[0];
     $(".img-grayscale").hover(
         function() {
             var id = $(this).attr("id");
-            audio.play();
 
         switch (id) {
             case 'stoop-station':
                 $("#stoop-station-text").show();
+                stoop.play();
+
                 break;
             case 'son-speaker':
                 $("#son-speaker-text").show();
+            son.play();
+
                 break;
             case 'jazzgoo-cezve':
                 $("#jazzgoo-cezve-text").show();
+            jazzgo.play();
+
                 break;
             case 'pock-projector':
                 $("#pock-projector-text").show();
+            pock.play();
+
                 break;
             case 'vr-fotka':
                 $("#vr-fotka-text").show();
+            vr.play();
+
                 break;
             case 'prirodno-1':
                 $("#prirodno-1-text").show();
+            prirodno.play();
+
                 break;
             case 'lifesaver':
                 $("#lifesaver-text").show();
+            trifloat.play();
+
                 break;
             case 'bashta-garden':
                 $("#bashta-garden-text").show();
+            bashta.play();
+
                 break;
         }
           }, function() {
@@ -98,27 +120,35 @@ $(document).ready(function () {
 
         switch (id) {
             case 'stoop-station':
+                stoop.pause();
                 $("#stoop-station-text").hide();
                 break;
             case 'son-speaker':
+                son.pause();
                 $("#son-speaker-text").hide();
                 break;
             case 'jazzgoo-cezve':
+                jazzgo.pause();
                 $("#jazzgoo-cezve-text").hide();
                 break;
             case 'pock-projector':
+                pock.pause();
                 $("#pock-projector-text").hide();
                 break;
             case 'vr-fotka':
+                vr.pause();
                 $("#vr-fotka-text").hide();
                 break;
             case 'prirodno-1':
+                prirodno.pause();
                 $("#prirodno-1-text").hide();
                 break;
             case 'lifesaver':
+                trifloat.pause();
                 $("#lifesaver-text").hide();
                 break;
             case 'bashta-garden':
+                bashta.pause();
                 $("#bashta-garden-text").hide();
                 break;
         }
