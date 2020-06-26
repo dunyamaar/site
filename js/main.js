@@ -123,11 +123,11 @@ $(document).ready(function () {
           }
     )
 
-    if (location.pathname === '/index.html') {
+    if (location.pathname === '/site/index.html') {
         $("#about").css('color', 'white');
-    } else if (location.pathname === '/work.html') {
+    } else if (location.pathname === '/site/work.html') {
         $("#work").css('color', 'white');
-    } else if (location.pathname === '/contact.html') {
+    } else if (location.pathname === '/site/contact.html') {
         $("#contact").css('color', 'white');
     } else {
         $("#work").css('color', 'white');
