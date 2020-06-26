@@ -411,14 +411,14 @@ header{
   }
 
   .pr-img {
-    padding-right: 29px;
+    padding-right: 1em;
   }
   .mr-img {
     margin-right: 3em;
   }
 
   .obj-fit {
-    object-fit: cover;
+    /* object-fit: cover; */
     width: 100%;
     height: 100%;
   }
@@ -450,50 +450,100 @@ footer p {
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .contact-main {
-    background-size: 120% !important;
-    height: 65%;
+    /* background-size: 120% !important;
+    height: 65%; */
   }
   .content-work {
     width: 100% !important;
   }
   .gallery, .gallery2 {
     grid-template-columns: 1fr;
+  }
+  .obj-fit{
+    object-fit: contain;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .contact-main {
-    background-size: 120% !important;
+    /* background-size: 120% !important; */
   }
   .content-work {
     width: 100% !important;
   }
   .gallery, .gallery2 {
     grid-template-columns: 1fr;
+  }
+  .obj-fit{
+    object-fit: contain;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .contact-main {
-    background-size: 100% !important;
+    /* background-size: 100% !important; */
   }
   .content-work {
     width: 100% !important;
   }
   .gallery, .gallery2 {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
+  }
+  .obj-fit{
+    object-fit: contain;
+  }
+  .f-dir {
+    flex-direction: column;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .contact-main {
-    background-size: 90% !important;
+    background-size: 70% !important;
   }
   .content-work {
     width: 50% !important;
+  }
+  .gallery {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* grid-gap: 1em; */
+    
+  }
+  .gallery2 {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    /* grid-gap: 1em; */
+    
+  }
+
+  .gallery1 {
+    display: grid;
+    grid-auto-flow: row;
+    /* grid-gap: 1em; */
+    
+
+    grid-template-rows: 1fr 1fr;
+  }
+  .gallery3 {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    /* grid-gap: 1em; */
+    
+  }
+  .obj-fit {
+    object-fit: unset;
+  }
+  .f-dir {
+    flex-direction: column;
   }
   
 }
@@ -537,5 +587,8 @@ footer p {
 
     /* grid-gap: 1em; */
     
+  }
+  .obj-fit {
+    object-fit: unset;
   }
 }
