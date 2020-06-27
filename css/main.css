@@ -182,24 +182,34 @@ label {
 
 @media screen and (max-width: 1650px) , screen and (max-height: 900px) {
   .animate-div{
-    padding-left: 10px !important;
+    padding-left: 25px !important;
+    padding-top: 25px !important;
+    padding-right: 25px !important;
   }
   .about-me{
-    width: 33%;
+    width: 50%;
     font-size: 15px;
     background-color: #0d0d0d;
     color: white;
     position: absolute;
     margin-top: 0px;
     padding: 10px;
-    height: 484px;
+    height: 404px;
   }
+
   @keyframes animate3{
     0% { transform: translate(481px, 0px); }
     50% { transform: translate(150px, 0px);}
-    100% { transform: translate(345px, 0px);}
+    100% { transform: translate(135px, 0px);}
   }
 }
+
+@media screen and (min-width: 2048px) {
+  .about-me{
+    height: 620px;
+  }
+}
+
 #prirodno-1-text{
   color: white;
   display: none;
