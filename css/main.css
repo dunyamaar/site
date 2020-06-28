@@ -19,9 +19,9 @@ nav {
     background-color: #0d0d0d;
     color: white;
     position: absolute;
-    margin-top: 0px;
+    margin-top: 0.5px;
     padding: 10px;
-    height: 580px;
+    height: 579px;
 }
 
 .slider-one{ width: 500px; height: 300px; margin: 100px auto; position: relative; top: 0; left: 0; right: 0; }
@@ -192,9 +192,9 @@ label {
     background-color: #0d0d0d;
     color: white;
     position: absolute;
-    margin-top: 0px;
+    margin-top: 0.5px;
     padding: 10px;
-    height: 404px;
+    height: 408px;
   }
 
   @keyframes animate3{
@@ -206,7 +206,7 @@ label {
 
 @media screen and (min-width: 2048px) {
   .about-me{
-    height: 620px;
+    height: 618px;
   }
 }
 
