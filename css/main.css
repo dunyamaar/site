@@ -24,7 +24,7 @@ nav {
     height: 579px;
 }
 
-.slider-one{ width: 500px; height: 300px; margin: 100px auto; position: relative; top: 0; left: 0; right: 0; }
+.slider-one{ width: 700px; height: 500px; margin: 5px auto; position: relative; top: 0; left: 0; right: 0; }
 
 .img{ text-align: center; line-height: 300px; width: 500px; top: 11px; position: absolute; font-size: 50px; font-family: 'Lobster', cursive; color: #fff; display: none; }
 .img.curry{ display: block; }
