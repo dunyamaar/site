@@ -26,7 +26,7 @@ nav {
 
 .slider-one{ width: 700px; height: 500px; margin: 5px auto; position: relative; top: 0; left: 0; right: 0; }
 
-.img{ text-align: center; line-height: 300px; width: 700px; top: 11px; position: absolute; font-size: 50px; font-family: 'Lobster', cursive; color: #fff; display: none; }
+.img{ text-align: center; line-height: 300px; width: 850px; top: 11px; right: -80px; position: absolute; font-size: 50px; font-family: 'Lobster', cursive; color: #fff; display: none; }
 .img.curry{ display: block; }
 .nav-one{
   width: 100%;
